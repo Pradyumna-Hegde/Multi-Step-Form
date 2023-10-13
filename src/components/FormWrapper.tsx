@@ -7,15 +7,15 @@ interface Props {
 
 function FormWrapper({ title, children }: Props) {
   return (
-    <>
+    <div className="row">
       <h3
         className="text-center"
         style={{ margin: 0, marginBottom: `${2}rem` }}
       >
         {title}
       </h3>
-      <form>{children}</form>
-    </>
+      <div>{children}</div>
+    </div>
   );
 }
 

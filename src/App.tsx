@@ -11,7 +11,7 @@ function App() {
     useMultiStepForm([<UserDetails />, <UserAddress />, <UserAccountSetup />]);
 
   return (
-    <div className="m-5 border p-5">
+    <div className="m-5 border p-5 container">
       <DisplayStep steps={steps} currentStepIndex={currentStepIndex} />
       {step}
       <DisplayButtons

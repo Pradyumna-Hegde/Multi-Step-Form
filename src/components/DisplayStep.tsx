@@ -7,7 +7,7 @@ interface Props {
 
 const DisplayStep = ({ steps, currentStepIndex }: Props) => {
   return (
-    <div className="mb-5 fs-4 d-flex flex-row-reverse">
+    <div className="mb-5 fs-4 row">
       {currentStepIndex + 1} / {steps.length}
     </div>
   );
